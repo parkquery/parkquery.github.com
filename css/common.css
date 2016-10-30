@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+.accessibility {
+	position: absolute;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%
+}
+.accessibility a {
+	display: block;
+	width: 1px;
+	height: 1px;
+	margin-bottom: -1px;
+	overflow: hidden;
+	text-align: center;
+	color: #fff
+}
+.accessibility a:focus, #accessibility a:active {
+	width: 100%;
+	height: auto;
+	padding: 5px 0;
+	background-color: #3c8200
+}
+.blind {
+	position: absolute;
+	left: -1000%;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	color: transparent
+}
+#header {
+	/* position: fixed;
+	top:-100%;
+	width: 100%;
+	height: 100%;
+	border: 1px solid transparent;
+	background-color: #b4dbbf;
+	box-sizing: border-box;
+	opacity: 0; */
+}
+#btn_menu{
+	position: fixed;
+	top:65px;
+	right:75px;
+	z-index: 1100;
+	cursor: pointer;
+	width:50px;
+	height:44px;
+	opacity: 1;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#btn_menu .top,
+#btn_menu .middle,
+#btn_menu .bottom {
+	display: block;
+	width: 50px;
+	height: 6px;
+	background: #e5e5e5;
+	position: absolute;
+	left: 0px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#btn_menu .top{
+	top:0;
+}
+#btn_menu .middle{
+	top:12px;
+}
+#btn_menu .bottom{
+	top:24px;
+}
+#btn_menu:hover .top{
+	top: 13px;
+   -moz-transform: scale(1) rotate(90deg);
+   -webkit-transform: scale(1) rotate(90deg);
+   -o-transform: scale(1) rotate(90deg);
+   -ms-transform: scale(1) rotate(90deg);
+   transform: scale(1) rotate(90deg);
+}
+#btn_menu:hover .bottom{
+	top: 13px;
+   -moz-transform: scale(1) rotate(-90deg);
+   -webkit-transform: scale(1) rotate(-90deg);
+   -o-transform: scale(1) rotate(-90deg);
+   -ms-transform: scale(1) rotate(-90deg);
+   transform: scale(1) rotate(-90deg);
+}
+#btn_menu.open{
+	right:50%;
+	margin-right:-25px;
+}
+#btn_menu.open .middle {
+  opacity: 0;
+}
+#btn_menu.open:hover span {
+  background: #b46357;
+}
+#btn_menu.open .top {
+  top: 20px;
+  -moz-transform: scale(1) rotate(45deg);
+  -webkit-transform: scale(1) rotate(45deg);
+  -o-transform: scale(1) rotate(45deg);
+  -ms-transform: scale(1) rotate(45deg);
+  transform: scale(1) rotate(45deg);
+}
+#btn_menu.open .bottom {
+  top: 20px;
+  -moz-transform: scale(1) rotate(-45deg);
+  -webkit-transform: scale(1) rotate(-45deg);
+  -o-transform: scale(1) rotate(-45deg);
+  -ms-transform: scale(1) rotate(-45deg);
+  transform: scale(1) rotate(-45deg);
+}
+#gnb {
+	position: fixed;
+	top:-100%;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	border: 1px solid transparent;
+	background-color: #b4dbbf;
+	box-sizing: border-box;
+	opacity: 0;
+}
+#gnb ul {
+	display:inline-block;
+	position: absolute;
+	top: 20%;
+	width: 100%;
+	height: 60%;
+	text-align: center;
+}
+#gnb li {
+	display:table;
+	width: 100%;
+	height: 25%;
+}
+#gnb a {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	font-family: 'Old Standard TT';
+	line-height: 1;
+	color: #3e3e40;
+	text-align: center;
+	letter-spacing: 3px;
+	vertical-align:middle;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#gnb a:hover {
+	color: #b46357;
+	background-color: #fff;
+}
+#gnb span {
+	display: block;
+}
+#gnb .txt_sub {
+	font-style: italic;
+	font-size: 36px;
+}
+#gnb .txt_main {
+	font-weight: 700;
+	font-size: 46px;
+	text-transform: uppercase;
+}
+.section01{position:relative;height:100vh;background-color:#353f55}
+.section01 .cover{position:relative;float:right;height:100%;width:54%;background:url(../img/bg-about.jpg) no-repeat 50% 50%;background-size:cover}
+.section01 h1{position:absolute;top:50%;margin:-63px 0 0 -311px;color:#fff;line-height: 1;text-align:right;}
+.section01 h1 .txt_sub{display:block;margin-bottom:5px;font-style: italic;font-size:54px;}
+.section01 h1 .txt_main{display:block;font-weight:700;font-size:66px;text-transform: uppercase;}
+.section02{min-height:750px;}
