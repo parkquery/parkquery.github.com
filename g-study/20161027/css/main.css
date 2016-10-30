@@ -1,2 +1,9 @@
 @charset "utf-8";
 
+.section01{position:relative;height:100vh;background-color:#353f55}
+.section01 .cover{position:relative;float:right;height:100%;width:54%;background:url(../img/bg-about.jpg) no-repeat 50% 50%;background-size:cover;}
+.section01 h1{position:absolute;top:50%;margin:0 0 0 -333px;transform:translateY(-50%); ;color:#fff;line-height: 1;text-align:right;letter-spacing:3px;}
+.section01 h1 .txt_sub{display:block;margin-bottom:5px;font-style: italic;font-size:54px;}
+.section01 h1 .txt_main{display:block;font-weight:700;font-size:66px;text-transform: uppercase;}
+.section02{min-height:850px;background:url(../img/bg01.jpg) no-repeat 50% fixed;background-size:cover;}
+.section03{min-height:850px;background:url(../img/bg02.jpg) no-repeat 50% fixed;background-size:cover;}

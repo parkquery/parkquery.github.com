@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>P.O.C.</title>
+	<title>GUTMATE - parkquery</title>
 	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/common.css">
@@ -14,18 +14,12 @@
 			$('#btn_menu').click(function(){
 				if ($(this).hasClass("open")) {
 					// 메뉴 닫기
-					$(this).removeClass("open");
-					$('#gnb').stop().animate({
-						'top':'-100%',
-						'opacity':0
-					},500,'easeInOutCubic');
+					$('#btn_menu, #gnb').removeClass("open");
+					
 				} else {
 					// 메뉴 열기
-					$(this).addClass("open");
-					$('#gnb').stop().animate({
-						'top':0,
-						'opacity':1
-					},500,'easeInOutCubic');
+					$('#btn_menu, #gnb').addClass("open");
+					
 				}
 			});
 		});
@@ -42,9 +36,15 @@
 			<nav id="gnb">
 				<ul>
 					<li>
-						<a href="#n">
+						<a href="g-study/20161027/index.html">
 							<span class="txt_sub">study</span>
-							<span class="txt_main">gangnam</span>
+							<span class="txt_main">Gangnam</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascirpt:;">
+							<span class="txt_sub">study</span>
+							<span class="txt_main">Jonglo</span>
 						</a>
 					</li>
 				</ul>
@@ -54,8 +54,8 @@
 			<section class="section section01">
 				<div class="cover">
 					<h1>
-						<span class="txt_sub">gutmate</span>
-						<span class="txt_main">parkquery</span>
+						<span class="txt_sub">park</span>
+						<span class="txt_main">gutmate</span>
 					</h1>
 				</div>
 				<div class="txt_box">
