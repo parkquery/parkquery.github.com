@@ -4,6 +4,18 @@
 .section01 .cover{position:relative;float:right;height:100%;width:54%;background:url(../img/bg-about.jpg) no-repeat 50% 50%;background-size:cover;}
 .section01 h1{position:absolute;top:50%;margin:0 0 0 -333px;transform:translateY(-50%); ;color:#fff;line-height: 1;text-align:right;letter-spacing:3px;}
 .section01 h1 .txt_sub{display:block;margin-bottom:5px;font-style: italic;font-size:54px;}
-.section01 h1 .txt_main{display:block;font-weight:700;font-size:66px;text-transform: uppercase;}
-.section02{min-height:850px;background:url(../img/bg01.jpg) no-repeat 50% fixed;background-size:cover;}
-.section03{min-height:850px;background:url(../img/bg02.jpg) no-repeat 50% fixed;background-size:cover;}
+.section01 h1 .txt_main{display:block;font-weight:700;font-size:66px;text-transform:uppercase;}
+.section02{position:relative;min-height:850px;padding-top:510px;}
+.section02 .txt_box{overflow:hidden;position:absolute;top:-80px;left:50%;z-index:20;margin-left:-430px;width:860px;padding:75px 95px;background-color:#b46357;color:#fff;}
+.section02 .txt_box p{font-size:18px;margin-bottom:20px;font-weight:300;line-height:1.4;}
+.section02 .txt_box p:last-child{margin-bottom:0}
+.section02 .txt_box>div{float:left;width:50%;}
+.section02 .txt_box .col01{padding-right:40px;border-right:1px solid #fff;}
+.section02 .txt_box .col02{padding-left:40px;}
+.section02 .quote{position:relative;z-index:10;width:85%;margin:0 auto;padding:130px 95px;border:1px solid #b4dbbf;font-family:'Old Standard TT';font-weight:700;font-size:40px;line-height:1.8;color:#444;text-align:center;}
+.section02 .quote .qt{color:#b46357;}
+.section02 .pic_box{margin-top:-80px;}
+.section02 .pic01{width:60%;}
+.section02 .pic02{width:45%;}
+.section02 .pic03{width:40%;}
+.section02 img{width:100%;}

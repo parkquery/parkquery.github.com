@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
 	<title>P.O.C.</title>
 	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
@@ -9,24 +10,10 @@
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery-1.12.0.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/common.js"></script>
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv.js"></script>
 	<![endif]-->
-	<script>
-		$(function(){
-			$('#btn_menu').click(function(){
-				if ($(this).hasClass("open")) {
-					// 메뉴 닫기
-					$('#btn_menu, #gnb').removeClass("open");
-					
-				} else {
-					// 메뉴 열기
-					$('#btn_menu, #gnb').addClass("open");
-					
-				}
-			});
-		});
-	</script>
 </head>
 <body>
 	<div id="wrap">
@@ -76,12 +63,34 @@
 				</div>
 			</section>
 			<section class="section02">
-				섹션 2
-			</section>
-			<section class="section03">
-				섹션 2
+				<div class="txt_box">
+					<div class="col01">
+						<p>C'est après m'être retiré du marché du travail que je suis revenu à mes anciennes amours : le travail du bois. Avec toutefois un esprit farouchement indépendant du travail classique, des contraintes monétaires et de mode.</p>
+						<p>Je vais où les courbes du bois me mènent, je me laisse guider par mon instinct, en toute liberté et indépendance, sans commandes ni échéances. L'errance est mon moteur sans lignes droites et sans certitudes...</p>
+						<p>Les arbres, leurs bois m'ont toujours fasciné par leur majesté et par la place importante qu'ils ont occupé dans notre histoire. C'est en effet par le bois que plusieurs générations de Québecois ont vécu et survécu aux grands froids et aux salaires misérables payés par la classe dominante de l'époque. C'est aussi dans les bois qu'on allait chasser le gibier qui fait encore aujourd'hui parti de notre alimentation.</p>
+					</div>
+					<div class="col02">
+						<p>Les arbres sont aussi le poumon qui bouffe une grande partie de la pollution engendrée par l'exploitation de nos ressources et autres sables bitumineux poisons de notre pauvre planète!</p>
+						<p>J'ai donc un grand respect pour le bois et c'est ainsi que la presque totalité du matériel de mes sculptures provient de billes ou de bûches qui auraient fini au poêle à bois et comme dit l'adage "le vieil homme et le vieux bois ne craignent qu'une chose, c'est de finir au foyer" ...</p>
+						<p>Bon voyage au pays de mes rêves éveillés!</p>
+					</div>
+				</div>
+				<div class="quote">
+					<span class="qt">“</span>LE VIEIL HOMME<br>
+					ET LE VIEUX BOIS<br>
+					NE CRAIGNENT QU’UNE CHOSE,<br>
+					C’EST DE FINIR AU FOYER.<span class="qt">”</span>
+				</div>
+				<div class="pic_box">
+					<div class="pic01"><img src="img/img-about-big.jpg" alt=""></div>
+					<div class="pic02"><img src="img/img-about-small-2.jpg" alt=""></div>
+					<div class="pic03"><img src="img/img-about-small-3.jpg" alt=""></div>
+				</div>
 			</section>
 		</div>
+		<footer id="footer">
+			
+		</footer>
 	</div>
 </body>
 </html>
