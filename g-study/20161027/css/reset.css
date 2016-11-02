@@ -3,11 +3,11 @@
 @font-face{
 	font-family:"hallo-s";
 	font-weight:300;
-	src:url('../fonts/HalloSans-light.eot');
-	src:url('../fonts/HalloSans-light.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/HalloSans-light.woff') format('woff'),
-	url('../fonts/HalloSans-light.ttf') format('truetype');
-	src:local(※), url('../fonts/HalloSans-light.woff') format('woff');
+	src:url('../fonts/HalloSans-Light.eot');
+	src:url('../fonts/HalloSans-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/HalloSans-Light.woff') format('woff'),
+	url('../fonts/HalloSans-Light.ttf') format('truetype');
+	src:local(※), url('../fonts/HalloSans-Light.woff') format('woff');
 }
 @font-face{
 	font-family:"hallo-s";
