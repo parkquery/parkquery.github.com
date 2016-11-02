@@ -12,11 +12,11 @@
 @font-face{
 	font-family:"hallo-s";
 	font-weight:400;
-	src:url('../fonts/Hallo sans.eot');
-	src:url('../fonts/Hallo sans.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Hallo sans.woff') format('woff'),
-	url('../fonts/Hallo sans.ttf') format('truetype');
-	src:local(※), url('../fonts/Hallo sans.woff') format('woff');
+	src:url('../fonts/HalloSans.eot');
+	src:url('../fonts/HalloSans.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/HalloSans.woff') format('woff'),
+	url('../fonts/HalloSans.ttf') format('truetype');
+	src:local(※), url('../fonts/HalloSans.woff') format('woff');
 }
 @font-face{
 	font-family:"hallo-s";
