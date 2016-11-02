@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 @font-face{
-	font-family:"hallo sans";
+	font-family:"hallo-s";
 	font-weight:300;
 	src:url('../fonts/Hallo sans light.eot');
 	src:url('../fonts/Hallo sans light.eot?#iefix') format('embedded-opentype'),
@@ -10,7 +10,7 @@
 	src:local(※), url('../fonts/Hallo sans light.woff') format('woff');
 }
 @font-face{
-	font-family:"hallo sans";
+	font-family:"hallo-s";
 	font-weight:400;
 	src:url('../fonts/Hallo sans.eot');
 	src:url('../fonts/Hallo sans.eot?#iefix') format('embedded-opentype'),
@@ -19,7 +19,7 @@
 	src:local(※), url('../fonts/Hallo sans.woff') format('woff');
 }
 @font-face{
-	font-family:"hallo sans";
+	font-family:"hallo-s";
 	font-weight:700;
 	src:url('../fonts/Hallo sans black.eot');
 	src:url('../fonts/Hallo sans black.eot?#iefix') format('embedded-opentype'),
