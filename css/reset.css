@@ -3,11 +3,11 @@
 @font-face{
 	font-family:"hallo-s";
 	font-weight:300;
-	src:url('../fonts/Hallo sans light.eot');
-	src:url('../fonts/Hallo sans light.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Hallo sans light.woff') format('woff'),
-	url('../fonts/Hallo sans light.ttf') format('truetype');
-	src:local(※), url('../fonts/Hallo sans light.woff') format('woff');
+	src:url('../fonts/HalloSans-light.eot');
+	src:url('../fonts/HalloSans-light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/HalloSans-light.woff') format('woff'),
+	url('../fonts/HalloSans-light.ttf') format('truetype');
+	src:local(※), url('../fonts/HalloSans-light.woff') format('woff');
 }
 @font-face{
 	font-family:"hallo-s";
@@ -21,11 +21,11 @@
 @font-face{
 	font-family:"hallo-s";
 	font-weight:700;
-	src:url('../fonts/Hallo sans black.eot');
-	src:url('../fonts/Hallo sans black.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/Hallo sans black.woff') format('woff'),
-	url('../fonts/Hallo sans black.ttf') format('truetype');
-	src:local(※), url('../fonts/Hallo sans black.woff') format('woff');
+	src:url('../fonts/HalloSans-black.eot');
+	src:url('../fonts/HalloSans-black.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/HalloSans-black.woff') format('woff'),
+	url('../fonts/HalloSans-black.ttf') format('truetype');
+	src:local(※), url('../fonts/HalloSans-black.woff') format('woff');
 }
 
 body{line-height:1.5em;font-family:'hallo sans', Helvetica, Arial, sans-serif;word-break:keep-all;color:#666}
