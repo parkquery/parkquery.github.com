@@ -1,36 +1,27 @@
 @charset "utf-8";
 
 @font-face{
-	font-family:"hallo-s";
-	font-weight:300;
-	src:url('../fonts/HalloSans-light.eot');
-	src:url('../fonts/HalloSans-light.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/HalloSans-light.woff') format('woff'),
-	url('../fonts/HalloSans-light.ttf') format('truetype');
-	src:local(※), url('../fonts/HalloSans-light.woff') format('woff');
-}
-@font-face{
-	font-family:"hallo-s";
+	font-family:"ng";
 	font-weight:400;
-	src:url('../fonts/HalloSans.eot');
-	src:url('../fonts/HalloSans.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/HalloSans.woff') format('woff'),
-	url('../fonts/HalloSans.ttf') format('truetype');
-	src:local(※), url('../fonts/HalloSans.woff') format('woff');
+	src:url('../fonts/NanumGothic-Regular.eot');
+	src:url('../fonts/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/NanumGothic-Regular.woff') format('woff'),
+	url('../fonts/NanumGothic-Regular.ttf') format('truetype');
+	src:local(※), url('../fonts/NanumGothic-Regular.woff') format('woff');
 }
 @font-face{
-	font-family:"hallo-s";
-	font-weight:700;
-	src:url('../fonts/HalloSans-black.eot');
-	src:url('../fonts/HalloSans-black.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/HalloSans-black.woff') format('woff'),
-	url('../fonts/HalloSans-black.ttf') format('truetype');
-	src:local(※), url('../fonts/HalloSans-black.woff') format('woff');
+	font-family:"ng";
+	font-weight:600;
+	src:url('../fonts/NanumGothic-Bold.eot');
+	src:url('../fonts/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/NanumGothic-Bold.woff') format('woff'),
+	url('../fonts/NanumGothic-Bold.ttf') format('truetype');
+	src:local(※), url('../fonts/NanumGothic-Bold.woff') format('woff');
 }
 
-body{line-height:1.5em;font-family:"hallo sans", "hallo-s", Helvetica, Arial, sans-serif;word-break:keep-all;color:#666}
+body{line-height:1.5em;font-family:"lato", "나눔고딕", "ng", Helvetica, Arial, sans-serif;word-break:keep-all;color:#666}
 body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, table, tr, th, td, button,textarea{margin:0;padding:0;font-size:14px;box-sizing:border-box;}
-h1, h2, h3, h4, h5, h6{font-family:"Old Standard TT";line-height:normal;font-weight:normal}
+h1, h2, h3, h4, h5, h6{line-height:normal;font-weight:normal}
 ul, ol, li{list-style:none}
 hr{position:absolute;left:-1000%;top:0;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden}
 fieldset{border:none}
