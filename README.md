@@ -8,8 +8,13 @@
 ssh 키 생성
 
 ```bash
+# .ssh 폴더로 이동
+$ cd ~/.ssh
+# .ssh 디렉토리가 존재한다면 기존의 키를 확인하자.
+$ ls
+id_rsa.pub				id_rsa
 # ssh 키 생성
-$ ssh-keygen
+$ ssh-keygen -t rsa -C "username@gamil.com" //계정의 이메일 주소
 ```
 
 ssh config
@@ -19,7 +24,7 @@ ssh config
 $ touch config
 ```
 
-### npm으로 설치
+### ssh 다중 연결 너무 힘듦
 
 npm을 이용해 dddd를 설치하는 방법은 다음과 같다.
 
@@ -27,9 +32,9 @@ npm을 이용해 dddd를 설치하는 방법은 다음과 같다.
 $ npm install dddd
 ```
 
-## 브라우저 지원
+## 그러나 해냈지!!
 
-ㅇㅇㅇㅇ
+헤헷
 
 |Internet Explorer|Chrome|Firefox|Safari|iOS|Android|
 |---|---|---|---|---|---|
