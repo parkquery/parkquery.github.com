@@ -3,18 +3,20 @@
   - [API 문서](http://parkquery.github.io)
   - [모듈 사용 예](http://parkquery.github.io)
 
-### Bower로 설치
+### ssh 
 
-Bower가 설치되지 않았다면 다음과 같이 npm을 이용해 Bower를 설치한다.
+ssh 키 생성
 
 ```bash
-$ npm install bower -g
+# ssh 키 생성
+$ ssh-keygen
 ```
 
-Bower를 이용해 dddd를 설치하는 방법은 다음과 같다.
+ssh config
 
 ```bash
-$ bower install aaaa
+# 0byte config 파일 생성
+$ touch config
 ```
 
 ### npm으로 설치
