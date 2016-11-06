@@ -10,9 +10,11 @@ ssh 키 생성
 ```bash
 # .ssh 폴더로 이동
 $ cd ~/.ssh
+
 # .ssh 디렉토리가 존재한다면 기존의 키를 확인하자.
 $ ls
 id_rsa.pub				id_rsa
+
 # ssh 키 생성
 $ ssh-keygen -t rsa -C "username@gamil.com" //계정의 이메일 주소
 ```
